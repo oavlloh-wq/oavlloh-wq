@@ -25,6 +25,7 @@ Sharp, local-first tools — lint your tools, capture a run, replay it, and fix 
 | ✂️ **[ctxfit](https://github.com/oavlloh-wq/ctxfit)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/ctxfit?style=flat&label=★) | Trim conversation history to a token budget **without breaking it** — never orphans a `tool_use`/`tool_result` pair. Zero deps. |
 | ✅ **[msglint](https://github.com/oavlloh-wq/msglint)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/msglint?style=flat&label=★) | Pre-flight validator for the Anthropic Messages API — catches the **structural bugs that cause 400s** (bad alternation, dangling `tool_use`, system-in-messages) before you send. Zero deps. |
 | 🕶️ **[cloak](https://github.com/oavlloh-wq/cloak)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/cloak?style=flat&label=★) | **Reversibly redact secrets & PII** from prompts before they leave your machine — keys, emails, cards, IPs → stable placeholders, restored when the model echoes them back. Zero deps, offline. |
+| 🌀 **[spincheck](https://github.com/oavlloh-wq/spincheck)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/spincheck?style=flat&label=★) | Catch an agent **stuck in a loop** — repeats, `A-B-A-B` cycles, low-novelty churn — before it burns your token budget. Watches the tool-call stream, trips with a reason. Zero deps. |
 
 ```
 llmtap (capture)  →  rewind (replay)  →  cachelens (optimize)
