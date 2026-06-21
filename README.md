@@ -24,6 +24,7 @@ Sharp, local-first tools — lint your tools, capture a run, replay it, and fix 
 | 💧 **[trickle](https://github.com/oavlloh-wq/trickle)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/trickle?style=flat&label=★) | Best-effort parser for **partial / streaming JSON** — read tool-call fields *as they stream in*, before the closing brace. Zero deps. |
 | ✂️ **[ctxfit](https://github.com/oavlloh-wq/ctxfit)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/ctxfit?style=flat&label=★) | Trim conversation history to a token budget **without breaking it** — never orphans a `tool_use`/`tool_result` pair. Zero deps. |
 | ✅ **[msglint](https://github.com/oavlloh-wq/msglint)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/msglint?style=flat&label=★) | Pre-flight validator for the Anthropic Messages API — catches the **structural bugs that cause 400s** (bad alternation, dangling `tool_use`, system-in-messages) before you send. Zero deps. |
+| 🕶️ **[cloak](https://github.com/oavlloh-wq/cloak)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/cloak?style=flat&label=★) | **Reversibly redact secrets & PII** from prompts before they leave your machine — keys, emails, cards, IPs → stable placeholders, restored when the model echoes them back. Zero deps, offline. |
 
 ```
 llmtap (capture)  →  rewind (replay)  →  cachelens (optimize)
