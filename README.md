@@ -13,10 +13,11 @@ what they're actually doing.
 
 ### 🧰 The LLM-agent toolkit
 
-Three tools, one trace format — capture a run, replay it, and fix what's slow.
+Sharp, local-first tools — lint your tools, capture a run, replay it, and fix what's slow.
 
 | | what it does |
 |---|---|
+| 🧹 **[toollint](https://github.com/oavlloh-wq/toollint)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/toollint?style=flat&label=★) | Linter for tool / function-calling schemas — catches the mistakes that make agent tool-calls **silently fail**. Anthropic + OpenAI dialects, zero deps. |
 | 🚰 **[llmtap](https://github.com/oavlloh-wq/llmtap)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/llmtap?style=flat&label=★) | Transparent proxy — record every Anthropic API call with **zero code change** (one env var). Streaming-aware, live cost/cache dashboard. |
 | ⏪ **[rewind](https://github.com/oavlloh-wq/rewind)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/rewind?style=flat&label=★) | Time-travel debugger — inspect any step of a recorded run, then **fork & replay** it with edits to ask "what if?" |
 | 🔍 **[cachelens](https://github.com/oavlloh-wq/cachelens)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/cachelens?style=flat&label=★) | Prompt-cache doctor — finds **why your cache isn't hitting** and how much it's costing you. |
