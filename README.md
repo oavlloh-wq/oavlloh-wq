@@ -22,6 +22,7 @@ Sharp, local-first tools — lint your tools, capture a run, replay it, and fix 
 | ⏪ **[rewind](https://github.com/oavlloh-wq/rewind)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/rewind?style=flat&label=★) | Time-travel debugger — inspect any step of a recorded run, then **fork & replay** it with edits to ask "what if?" |
 | 🔍 **[cachelens](https://github.com/oavlloh-wq/cachelens)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/cachelens?style=flat&label=★) | Prompt-cache doctor — finds **why your cache isn't hitting** and how much it's costing you. |
 | 💧 **[trickle](https://github.com/oavlloh-wq/trickle)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/trickle?style=flat&label=★) | Best-effort parser for **partial / streaming JSON** — read tool-call fields *as they stream in*, before the closing brace. Zero deps. |
+| ✂️ **[ctxfit](https://github.com/oavlloh-wq/ctxfit)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/ctxfit?style=flat&label=★) | Trim conversation history to a token budget **without breaking it** — never orphans a `tool_use`/`tool_result` pair. Zero deps. |
 
 ```
 llmtap (capture)  →  rewind (replay)  →  cachelens (optimize)
