@@ -27,6 +27,7 @@ Sharp, local-first tools — lint your tools, capture a run, replay it, and fix 
 | 🕶️ **[cloak](https://github.com/oavlloh-wq/cloak)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/cloak?style=flat&label=★) | **Reversibly redact secrets & PII** from prompts before they leave your machine — keys, emails, cards, IPs → stable placeholders, restored when the model echoes them back. Zero deps, offline. |
 | 🌀 **[spincheck](https://github.com/oavlloh-wq/spincheck)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/spincheck?style=flat&label=★) | Catch an agent **stuck in a loop** — repeats, `A-B-A-B` cycles, low-novelty churn — before it burns your token budget. Watches the tool-call stream, trips with a reason. Zero deps. |
 | 🔧 **[coax](https://github.com/oavlloh-wq/coax)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/coax?style=flat&label=★) | **Repair & coerce tool-call arguments** to match your JSON Schema — `"5"`→`5`, `"yes"`→`true`, stringified-JSON→object, scalar→array, wrong-case enums. Fixes the type wobble that throws in your handler, with an audit trail. Zero deps. |
+| 🥫 **[canned](https://github.com/oavlloh-wq/canned)** &nbsp;![stars](https://img.shields.io/github/stars/oavlloh-wq/canned?style=flat&label=★) | **Deterministic, offline test double for the Anthropic Messages API** — script replies (tool calls included), drop the stub in where your code wants a client, assert on what the agent did. No API key, no network. Zero deps. |
 
 ```
 llmtap (capture)  →  rewind (replay)  →  cachelens (optimize)
